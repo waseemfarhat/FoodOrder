@@ -1,0 +1,66 @@
+.Navbar{
+    background-color:rgb(255, 77, 77);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.Navbar h2{
+    color: white;
+    font-weight: bold;
+    font-size:xx-large;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+button{
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right:50px ;
+    border: none;
+    width: 50%;
+    height: 50%;
+    margin-left: 7px;
+
+}
+.addtocart{
+    position: absolute;
+    width: 195px;
+    background-color: rgb(179, 37, 37);
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+ right: 0;
+    bottom: 10%;
+    
+} 
+.addtocart label{
+    width: 20%;
+    height: 35%;
+    background-color: red;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;   
+    
+}
+.Navbar img{
+    width: 140px;
+    height: 100px;
+    margin: 0;
+    
+    
+}

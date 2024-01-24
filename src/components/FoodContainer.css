@@ -1,0 +1,78 @@
+.Foodcontainer{
+    position:relative;
+    top: 70vh;
+    background-color: white;
+    width: 170vh;
+    display: flex;
+    transform: translateX(13%);
+    border-radius: 7px;
+    height: 140vh;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ol{
+    width: 100%;
+}
+.Foodcontainer li{
+    list-style: none;
+   height:30vh;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+   text-align: center;
+   align-items: center;
+   border-bottom: 1px solid rgb(189, 181, 181);
+
+
+
+}
+
+span{
+color: rgb(134, 89, 4);
+}
+h1{
+    color: rgb(172, 148, 15);
+    font-weight: bolder;
+}
+
+.button-and-quantiy button{
+    margin-top: 25px;
+}
+
+label{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    color: red;
+}
+p{
+    color: rgb(189, 37, 37);
+    font-size: 17px;
+    font-weight: bold;
+}
+button
+{
+    width: 80px;
+    height: 30px;
+}
+.button-and-quantity{
+    height: 10vh;
+ 
+}
+.menuitems{
+   margin: 0;
+}
+input{
+    width: 13%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin:0 5px ;
+}
+input{
+    color:rgb(66, 66, 66);
+    font-weight: bolder;
+    font-size: 17px;
+}
